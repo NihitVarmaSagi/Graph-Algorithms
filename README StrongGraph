@@ -1,0 +1,10 @@
+We need to check whether the graph is strongly connected or not
+
+A directed graph is strongly connected if we can go from a node to every other node in the graph. We use kosaraju's BFS algorithm.
+
+1. Create a directed graph using adjacent matrix.
+2. Start with the node of you're choice and perform breadth first search of the graph.
+3. Check whether all the nodes in the graph are visited. If 'false' then the graph is not strongly connected. Return.
+4. If not false then reverse all the edges of the graph.
+5. Repeat 3.
+6. If not false then the graph is strongly connected.
